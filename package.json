@@ -1,0 +1,32 @@
+{
+  "name": "cli-apktool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoopschat/cli-apktool.git"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "keywords": [
+    "cli-apktool"
+  ],
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "cli-apktool": "./lib/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "1.2.0",
+    "iconv-lite": "0.4.24",
+    "xmldom": "^0.1.19"
+  }
+}
