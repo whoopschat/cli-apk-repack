@@ -26,12 +26,12 @@
 ```json
 {
   "appname": "new app name",
+  "appicon": "new app icon",
   "packagename": "new app packagename",
   "metadatas": {
     "key1":"value1",
     "key2":"value2"
   },
-  "appicon": "new app icon",
   "pem": "apk signapk pem file",
   "pk8": "apk signapk pk8 file"
 }
