@@ -6,4 +6,4 @@
 test/
 .temp/
 node_modules/
-apktool-config.json
+apk-config.json

@@ -1,15 +1,15 @@
-# cli-apktool
-> apktool cli
+# cli-apk-repack
+> apk repack cli
 
 ### install
 ```
-> npm install cli-apktool --save-dev
+> npm install cli-apk-repack --save-dev
 ```
 
 ### usage
 ```
-> cli-apktool
-  Usage: cli-apktool [options]
+> cli-apk-repack
+  Usage: cli-apk-repack [options]
   --input              input apk file
   --target             target apk file
   --appname            new apk app name
@@ -17,11 +17,11 @@
   --packagename        new apk package name
   --pem                signapk pem file
   --pk8                signapk pk8 file
-  --config             config file def: ./apktool-config.json
+  --config             config file def: ./apk-config.json
   --help               show help
 ```
 
-`apktool-config.json`
+`apk-config.json`
 
 ```json
 {

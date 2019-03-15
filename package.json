@@ -1,26 +1,26 @@
 {
-  "name": "cli-apktool",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cli-apk-repack",
+  "version": "0.0.1",
+  "description": "apk repack cli",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whoopschat/cli-apktool.git"
+    "url": "git+https://github.com/whoopschat/cli-apk-repack.git"
   },
   "engines": {
     "node": ">= 0.10"
   },
   "keywords": [
-    "cli-apktool"
+    "cli-apk-repack"
   ],
   "files": [
     "lib"
   ],
   "bin": {
-    "cli-apktool": "./lib/cli.js"
+    "cli-apk-repack": "./lib/cli.js"
   },
   "author": "",
   "license": "ISC",
