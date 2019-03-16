@@ -8,31 +8,31 @@
 
 ### usage
 ```
-> cli-apk-repack
+> cli-apk-repack --help
   Usage: cli-apk-repack [options]
-  --input              input apk file
-  --target             target apk file
-  --appname            new apk app name
-  --appicon            new apk app icon
-  --packagename        new apk package name
-  --pem                signapk pem file
-  --pk8                signapk pk8 file
-  --config             config file def: ./apk-config.json
-  --help               show help
+    --input              input apk file
+    --target             target apk file
+    --appname            reset apk app name
+    --appicon            reset apk app icon
+    --packagename        reset apk package name
+    --permissions        append user-permission list use ',' split
+    --meta_xx            reset meta data
+    --string_xx          reset string value
+    --package_xx         reset package name
+    --pem                signapk pem file
+    --pk8                signapk pk8 file
+    --config             config file def: ./apk-config.json
+    --help               show help
 ```
 
 `apk-config.json`
 
 ```json
 {
-  "appname": "new app name",
-  "appicon": "new app icon",
-  "packagename": "new app packagename",
-  "metadatas": {
-    "key1":"value1",
-    "key2":"value2"
-  },
-  "pem": "apk signapk pem file",
-  "pk8": "apk signapk pk8 file"
+  "appname": "reset apk app name",
+  "appicon": "reset apk app icon",
+  "packagename": "reset apk package name",
+  "pem": "signapk pem file",
+  "pk8": "signapk pk8 file"
 }
 ```
