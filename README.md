@@ -14,6 +14,7 @@
     --target                   target apk file
     --appname                  reset apk app name
     --appicon                  reset apk app icon
+    --approundicon             reset apk app round icon
     --packagename              reset apk package name
     --permissions              append user-permission list use ',' split
     --meta_xx                  reset meta data
